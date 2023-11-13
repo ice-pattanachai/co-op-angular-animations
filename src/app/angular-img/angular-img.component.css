@@ -1,0 +1,9 @@
+:host {
+    display: block;
+    width: 230px;
+  }
+  
+  :host img {
+    width: 230px;
+  }
+  

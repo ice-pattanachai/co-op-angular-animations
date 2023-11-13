@@ -1,0 +1,34 @@
+:host {
+    display: block;
+  }
+  
+  :host .toolbar {
+    display: flex;
+  }
+  
+  :host .top-navigtaion {
+    margin-left: auto;
+  }
+  
+  :host .sidenav-container {
+    background: #ffffff;
+    color: inherit;
+    height: calc(100vh - 64px);
+  }
+  
+  :host .sidenav-container .mat-sidenav-content {
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 600px) {
+    :host .sidenav-container {
+      height: calc(100vh - 56px);
+    }
+  }
+  
+  @media screen and (max-width: 860px) {
+    :host .top-navigtaion {
+      display: none;
+    }
+  }
+  
